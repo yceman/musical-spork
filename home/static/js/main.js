@@ -1,0 +1,1 @@
+alert('Este site usa cookie !SQN! =)');

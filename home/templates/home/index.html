@@ -1,0 +1,32 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Circle::Home</title>
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+</head>
+<body>
+   <ul class="nav nav-pills nav-fill gap-2 p-1 small bg-primary rounded-5 shadow-sm" id="pillNav2" role="tablist" style="--bs-nav-link-color: var(--bs-white); --bs-nav-pills-link-active-color: var(--bs-primary); --bs-nav-pills-link-active-bg: var(--bs-white);">
+    <li class="nav-item" role="presentation">
+        <button class="nav-link active rounded-5" id="home-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="true"><a href="#">Home</a></button>
+    </li>
+    <li class="nav-item" role="presentation">
+        <button class="nav-link rounded-5" id="profile-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="false"><a href="#">Profile</a></button>
+    </li>
+     <li class="nav-item" role="presentation">
+        <button class="nav-link rounded-5" id="contact-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="false"><a href="#">Contact</a></button>
+     </li>
+    </ul>
+    <h1>Welcome to music stream</h1>
+    <div style="width:100%;height:0;padding-bottom:92%;position:relative;">
+        <iframe src="https://giphy.com/embed/12NUbkX6p4xOO4" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+    </div>
+
+    <p><a href="https://giphy.com/gifs/shia-labeouf-12NUbkX6p4xOO4">via GIPHY</a></p>
+    <script src="{% static 'js/main.js' %}"></script>
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+</body>
+</html>
